@@ -1,6 +1,6 @@
 WMATA Better Bus Network Analysis
 
-Overview
+## Overview
 
 This project is an interactive R Shiny application that explores the impact of bus stop removals under the Washington Metropolitan Area Transit Authority (WMATA) Better Bus Network redesign. The application allows users to investigate where bus stops were removed across Washington, DC and examine how these changes relate to demographic and socioeconomic characteristics at the ward level.
 
@@ -8,7 +8,7 @@ The goal of the project is to provide an accessible tool for exploring transport
 
 Live Application: https://jrb0.shinyapps.io/WMATA_better_bus_app/
 
-Application Preview
+## Application Preview
 
 Homepage
 ![Homepage](Homepage.png)
@@ -22,7 +22,20 @@ Ward Level Analysis
 Statistical Analysis
 ![Statistical Analysis](analysis.png)
 
-Project Objectives
+## Final Analysis
+
+The analysis explored whether bus stop removals under WMATA's Better Bus Network redesign were associated with demographic and socioeconomic characteristics across Washington, DC wards.
+
+Two linear regression models were examined:
+
+- **Median Household Income vs. Percentage of Bus Stops Removed**
+- **Number of Public Transit Commuters vs. Percentage of Bus Stops Removed**
+
+While neither model reached statistical significance, the results provided useful directional insights. The income model suggested that higher-income wards tended to experience slightly lower percentages of bus stop removals, while the commuter model indicated little relationship between transit usage and stop removals.
+
+Overall, the findings did not provide strong statistical evidence that bus stop removals were systematically associated with income levels or public transit commuter volume. However, the project demonstrates how geographic, demographic, and transportation data can be combined to evaluate public policy decisions and explore questions of accessibility and transportation equity.
+
+## Project Objectives
 
 * Visualize active and removed WMATA bus stops across Washington, DC.
 * Explore differences in stop removals across city wards.
@@ -30,7 +43,7 @@ Project Objectives
 * Provide an interactive platform for transportation policy and equity analysis.
 * Demonstrate the use of spatial data visualization, statistical analysis, and interactive dashboard development.
 
-Features
+## Features
 
 1. Interactive Bus Stop Map
 * Displays active and removed WMATA bus stops.
@@ -52,7 +65,7 @@ Features
 * Highlights the intersection of public transportation, demographics, and accessibility.
 
 
-Data Sources
+## Data Sources
 
 The application combines:
 
@@ -62,7 +75,7 @@ The application combines:
 
 These datasets are integrated to provide both spatial and statistical perspectives on transit service changes.
 
-Technologies Used
+## Technologies Used
 
 * R
 * Shiny
@@ -73,7 +86,7 @@ Technologies Used
 * tidyr
 * R Markdown
 
-Skills Demonstrated
+## Skills Demonstrated
 
 * Data Cleaning and Preparation
 * Exploratory Data Analysis (EDA)
@@ -84,7 +97,7 @@ Skills Demonstrated
 * Public Policy and Equity Analysis
 * R Programming
 
-Key Takeaways
+## Key Takeaways
 
 This project demonstrates how data science tools can be used to analyze public transportation policy and communicate complex findings through interactive visualizations. 
 By combining geographic, demographic, and statistical analysis, the application helps users better understand how transit system redesigns may impact different communities throughout Washington, DC.
