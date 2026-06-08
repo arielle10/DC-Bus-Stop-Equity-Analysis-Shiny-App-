@@ -6,7 +6,7 @@ This project is an interactive R Shiny application that explores the impact of b
 
 The goal of the project is to provide an accessible tool for exploring transportation policy decisions and their potential implications for equity, accessibility, and public transit service distribution.
 
-Live Application: https://jrb0.shinyapps.io/WMATA_better_bus_app/
+## Live Application: https://jrb0.shinyapps.io/WMATA_better_bus_app/
 
 ## Application Preview
 
@@ -21,19 +21,6 @@ Ward Level Analysis
 
 Statistical Analysis
 ![Statistical Analysis](analysis.png)
-
-## Final Analysis
-
-The analysis explored whether bus stop removals under WMATA's Better Bus Network redesign were associated with demographic and socioeconomic characteristics across Washington, DC wards.
-
-Two linear regression models were examined:
-
-- **Median Household Income vs. Percentage of Bus Stops Removed**
-- **Number of Public Transit Commuters vs. Percentage of Bus Stops Removed**
-
-While neither model reached statistical significance, the results provided useful directional insights. The income model suggested that higher-income wards tended to experience slightly lower percentages of bus stop removals, while the commuter model indicated little relationship between transit usage and stop removals.
-
-Overall, the findings did not provide strong statistical evidence that bus stop removals were systematically associated with income levels or public transit commuter volume. However, the project demonstrates how geographic, demographic, and transportation data can be combined to evaluate public policy decisions and explore questions of accessibility and transportation equity.
 
 ## Project Objectives
 
@@ -64,6 +51,26 @@ Overall, the findings did not provide strong statistical evidence that bus stop 
 * Investigates how infrastructure changes may affect different communities.
 * Highlights the intersection of public transportation, demographics, and accessibility.
 
+## Methods
+
+- Integrated WMATA bus stop, ward boundary, and demographic datasets.
+- Performed data cleaning and aggregation at the ward level.
+- Created interactive geographic visualizations using R Shiny.
+- Conducted exploratory data analysis and linear regression modeling.
+- Developed an interactive dashboard for public transportation policy analysis.
+
+## Key Findings
+
+The analysis explored whether bus stop removals under WMATA's Better Bus Network redesign were associated with demographic and socioeconomic characteristics across Washington, DC wards.
+
+Two linear regression models were examined:
+
+- **Median Household Income vs. Percentage of Bus Stops Removed**
+- **Number of Public Transit Commuters vs. Percentage of Bus Stops Removed**
+
+While neither model reached statistical significance, the results provided useful directional insights. The income model suggested that higher-income wards tended to experience slightly lower percentages of bus stop removals, while the commuter model indicated little relationship between transit usage and stop removals.
+
+Overall, the findings did not provide strong statistical evidence that bus stop removals were systematically associated with income levels or public transit commuter volume. However, the project demonstrates how geographic, demographic, and transportation data can be combined to evaluate public policy decisions and explore questions of accessibility and transportation equity.
 
 ## Data Sources
 
@@ -96,12 +103,6 @@ These datasets are integrated to provide both spatial and statistical perspectiv
 * Data Storytelling
 * Public Policy and Equity Analysis
 * R Programming
-
-## Key Takeaways
-
-This project demonstrates how data science tools can be used to analyze public transportation policy and communicate complex findings through interactive visualizations. 
-By combining geographic, demographic, and statistical analysis, the application helps users better understand how transit system redesigns may impact different communities throughout Washington, DC.
-
 
 This project was completed as a team project for a Data Science course at American University.
 
