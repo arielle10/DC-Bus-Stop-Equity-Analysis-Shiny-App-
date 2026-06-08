@@ -8,6 +8,20 @@ The goal of the project is to provide an accessible tool for exploring transport
 
 Live Application: https://jrb0.shinyapps.io/WMATA_better_bus_app/
 
+Application Preview
+
+Homepage
+![Homepage](Homepage.png)
+
+Interactive Bus Stop Map
+![Interactive Map](map_view.png)
+
+Ward Level Analysis
+![Ward Analysis](wards_graph.png)
+
+Statistical Analysis
+![Statistical Analysis](analysis.png)
+
 Project Objectives
 
 * Visualize active and removed WMATA bus stops across Washington, DC.
@@ -27,7 +41,7 @@ Features
 * Select any Washington, DC ward using a dropdown menu.
 * View demographic and socioeconomic information associated with the selected ward.
 * Compare transit changes across different areas of the city.
-* 
+ 
 3. Statistical Visualizations
 * Explore patterns in bus stop removals.
 * Analyze relationships between transit service changes and ward characteristics.
@@ -78,7 +92,7 @@ By combining geographic, demographic, and statistical analysis, the application 
 
 This project was completed as a team project for a Data Science course at American University.
 
-Authors
+Authors:
 Arielle Cameron, Collin Brown, Jonathan Bacharach, Maulie Clermont
 
 
